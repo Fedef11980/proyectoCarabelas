@@ -62,10 +62,3 @@ body {
 .fab {
   size: 5px;
 }
-
-#imgplayers {
-  background-image: url(../img/2016/leonTomeo.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: none;
-}

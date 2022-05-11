@@ -6,14 +6,11 @@ function inicio() {
 }
 
 function cambiarImg() {
-  $("#imgplayers").css(
-    "background-image",
-    "url(../proyectoCarabelas/img/2016/leonTomeo2.jpeg)"
-  );
+  $("#imgplayers").attr("src", "../img/2016/leonTomeo2.jpg");
+  console.log(cambiarImg);
 }
+
 function originalImg() {
-  $("#imgplayers").css(
-    "background-image",
-    "url(../proyectoCarabelas/img/2016/leonTomeo.jpeg)"
-  );
+  $("#imgplayers").attr("src", "../img/2016/leonTomeo.jpeg");
+  console.log(originalImg);
 }
