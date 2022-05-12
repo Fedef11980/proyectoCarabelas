@@ -7,10 +7,10 @@ function inicio() {
 
 function cambiarImg() {
   $("#imgplayers").attr("src", "../img/2016/leonTomeo2.jpg");
-  console.log(cambiarImg);
+  console.log("cambiar", cambiarImg);
 }
 
 function originalImg() {
   $("#imgplayers").attr("src", "../img/2016/leonTomeo.jpeg");
-  console.log(originalImg);
+  console.log("original", originalImg);
 }
