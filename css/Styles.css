@@ -16,16 +16,18 @@ body {
   padding: 2px 2px;
   border-radius: 5px;
 }
+.navbar
+
 .navbar-light .navbar-brand {
   color: whitesmoke;
 }
+
 .navbar-brand {
   font-size: 1.5 rem;
 }
 .thumbnails {
   list-style: none;
 }
-
 .carousel-inner .img {
   width: auto;
   max-height: 400px;
@@ -37,7 +39,6 @@ body {
 .jugadores {
   overflow: hidden;
   width: 100%;
-
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   cursor: default;
   transition: all 400ms ease;
@@ -46,6 +47,7 @@ body {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
   transform: translateY(-3%);
 }
+
 .card img {
   width: 100%;
   height: 310px;
@@ -62,3 +64,4 @@ body {
 .fab {
   size: 5px;
 }
+

@@ -37,7 +37,7 @@
       <div class="col-4">
         <a class="navbar-brand" href="index.html">
           <img
-            src="../img/Logo Carabelas.jpeg"
+            src="../img/logoCarabelas.jpeg"
             alt="Logo-Carabelas"
             width="65"
             height="50"
@@ -81,20 +81,20 @@
       <div>    
         <ul class="nav nav-justified flex-column flex-sm-row">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"><b>Inicio</b></a>
+            <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
-            href="#" role="button" aria-expanded="false"> <b>Categorias</b> </a>
+            href="categorias.html" role="button" aria-expanded="false"> <b>Categorias</b> </a>
               <ul class="dropdown-menu">                
-                <li><a class="dropdown-item" href="#">Categoría 2009</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2010</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2011</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2012</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2013</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2014</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2015</a></li>
-                <li><a class="dropdown-item" href="#">Categoría 2016</a></li>
+                <li><a class="dropdown-item" href="cat2009.html">Categoría 2009</a></li>
+                <li><a class="dropdown-item" href="cat2010.html">Categoría 2010</a></li>
+                <li><a class="dropdown-item" href="cat2011.html">Categoría 2011</a></li>
+                <li><a class="dropdown-item" href="cat2012.html">Categoría 2012</a></li>
+                <li><a class="dropdown-item" href="cat2013.html">Categoría 2013</a></li>
+                <li><a class="dropdown-item" href="cat2014.html">Categoría 2014</a></li>
+                <li><a class="dropdown-item" href="cat2015.html">Categoría 2015</a></li>
+                <li><a class="dropdown-item" href="cat2015.html">Categoría 2016</a></li>
                 <li><a class="dropdown-item" href="#">Categoría 2017</a></li>
               </ul>
           </li>     
@@ -103,7 +103,7 @@
           </li>     
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
-            href="#" role="button" aria-expanded="false"> <b>Socios</b> </a>
+            href="merch.html" role="button" aria-expanded="false"> <b>Socios</b> </a>
               <ul class="dropdown-menu">                
                 <li><a class="dropdown-item" href="#">Login</a></li>
               </ul>
@@ -112,12 +112,12 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
             href="#" role="button" aria-expanded="false"><b>Cuerpo Técnico</b> </a>
               <ul class="dropdown-menu">                
-                <li><a class="dropdown-item" href="#">Eduardo Lavechia</a></li>
-                <li><a class="dropdown-item" href="#">German Rey</a></li>
-                <li><a class="dropdown-item" href="#">Gastón Montes de Oca</a></li>
-                <li><a class="dropdown-item" href="#">Diego Perez</a></li>
-                <li><a class="dropdown-item" href="#">Juan Manuel Camacho</a></li>
-                <li><a class="dropdown-item" href="#">Mauricio Gomez</a></li>
+                <li><a class="dropdown-item" href="EduLav.html">Eduardo Lavechia</a></li>
+                <li><a class="dropdown-item" href="GerRey.html">German Rey</a></li>
+                <li><a class="dropdown-item" href="GasOca.hmtl">Gastón Montes de Oca</a></li>
+                <li><a class="dropdown-item" href="#DiePer.html">Diego Perez</a></li>
+                <li><a class="dropdown-item" href="#JuanCor.html">Juan Manuel Camacho</a></li>
+                <li><a class="dropdown-item" href="#MauGom.html">Mauricio Gomez</a></li>
               </ul>
           </li>
         </ul>
@@ -139,8 +139,12 @@
     <div class="container">
       <div class="row row-cols-1 row-cols-md-4 g-4" id="fotos">
         <div class="col">
-          <div class="card jugadores" id="imgplayers">  
-            <img src="../img/2016/leonTomeo.jpeg"class="card-img-top cambio" alt="">
+          <div class="card jugadores">  
+            <img class="card-img-top fotocambia" 
+                  src="../img/2016/leonTomeo.jpeg"
+                  data-src-primaria="../img/2016/leonTomeo.jpeg"
+                  data-src-secundaria="../img/2016/leonTomeoHover.jpg"
+                  alt="León Tomeo">
               <div class="card-body">
               <h6 class="card-title">Nombre: León Tomeo</h6>
               <ul class="card-text" >
@@ -151,8 +155,12 @@
           </div>
         </div>
         <div class="col">
-          <div class="card jugadores" id="imgplayers">  
-            <img src="../img/2016/GuillermoGallo.jpeg" class="card-img-top cambio"  alt="...">
+          <div class="card jugadores">   
+            <img class="card-img-top fotocambia"
+                  src="../img/2016/guillermoGallo.jpeg" 
+                  data-src-primaria ="../img/2016/guillermoGallo.jpeg" 
+                  data-src-secundaria = "../img/2016/guillermoGalloHover.jpeg"
+                  alt="Guillermo Gallo">
               <div class="card-body">
                 <h6 class="card-title">Nombre: Guillermo Gallo</h6>
                 <ul class="card-text" >
@@ -165,7 +173,11 @@
         </div>
         <div class="col" >
           <div class="card jugadores">
-            <img src="../img/2016/Lucas Olivera.jpeg" class="card-img-top" alt="Lucas Olivera">
+            <img class="card-img-top fotocambia" 
+            src="../img/2016/lucasOlivera.jpeg"
+            data-src-primaria ="../img/2016/lucasOlivera.jpeg"
+            data-src-secundaria ="../img/2016/lucasOliveraHover.jpeg"
+              alt="Lucas Olivera">
             <div class="card-body">
               <h6 class="card-title">Nombre: Lucas Olivera </h6>
               <ul class="card-text" >
@@ -178,7 +190,11 @@
         </div>
         <div class="col">
           <div class="card jugadores">
-            <img src="../img/2016/santiagoRodriguez.jpeg" class="card-img-top" alt="Santiago Rodriguez">
+            <img class="card-img-top fotocambia"
+            src="../img/2016/santiagoRodriguez.jpeg"
+            data-src-primaria ="../img/2016/santiagoRodriguez.jpeg"
+            data-src-secundaria ="../img/2016/santiagoRodriguezHover.jpeg"
+              alt="Santiago Rodriguez">
             <div class="card-body">
               <h6 class="card-title">Nombre: Santiago Rodriguez</h6>
               <ul class="card-text" >
